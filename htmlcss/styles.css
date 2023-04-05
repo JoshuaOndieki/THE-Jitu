@@ -1,4 +1,13 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+  }
+
 .results-component{
+    font-family: "Hanken Grotesk", sans-serif;
     width: 640px;
     height: 440px;
     display: flex;
@@ -12,11 +21,13 @@
 }
 
 #results{
-    background-image: linear-gradient(to bottom right, rgb(78 56 245), rgb(84 57 246));
+    /* background-image: linear-gradient(to bottom right, rgb(78 56 245), rgb(84 57 246)); */
+    background-image: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 20px;
     width: 50%;
+    height: 100%;
     text-align: center;
-    margin: 1%;
+    margin-right: 1%;
 }
 
 #results>h1{
@@ -29,7 +40,7 @@
 
 #results>p{
     color: rgb(202 196 255);
-    width: 65%;
+    width: 70%;
     margin: auto;
 
 }
@@ -46,14 +57,15 @@ p{
 }
 
 #summary>h1{
-    width: 100%;
-    text-align: center;
+    width: 80%;
+    color: hsl(224, 30%, 27%)
 }
 
 
 #result-circle{
     border-radius: 50%;
-    background-image: linear-gradient(to bottom right, rgb(74 35 204), rgb(70 51 237));
+    /* background-image: linear-gradient(to bottom right, rgb(74 35 204), rgb(70 51 237)); */
+    background-image: linear-gradient(to bottom right, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     height: 150px;
     width: 150px;
     display: flex;
@@ -66,8 +78,9 @@ p{
 
 #total-marks{
     color: white;
-    font-size: 30px;
+    font-size: 55px;
     font-weight: bold;
+    margin: 0;
 }
 
 #out-of{
@@ -86,7 +99,7 @@ p{
 
 .summarytype{
     width: 60%;
-    /* float: left; */
+    font-weight: bold;
 }
 
 button{
@@ -104,16 +117,32 @@ button{
 #reactionsummary{
     background-color: hsl(0, 100%, 67%, 0.1);
 }
+#reactionsummary>.summarytype{
+    color: hsl(0, 100%, 67%);
+}
 
 #memorysummary{
     background-color: hsl(39, 100%, 56%, 0.1);
+}
+#memorysummary>.summarytype{
+    color: hsl(39, 100%, 56%);
 }
 
 #verbalsummary{
     background-color: hsl(166, 100%, 37%, 0.1);
 }
+#verbalsummary>.summarytype{
+    color: hsl(166, 100%, 37%);
+}
 
 #visualsummary{
     background-color: hsl(234, 85%, 45%, 0.1);
 }
+#visualsummary>.summarytype{
+    color: hsl(234, 85%, 45%);
+}
 
+
+img{
+    margin: 1%;
+}
