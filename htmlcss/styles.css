@@ -7,16 +7,16 @@
   }
 
 .results-component{
-    font-family: "Hanken Grotesk", sans-serif;
-    width: 640px;
-    height: 440px;
-    display: flex;
     border-radius: 20px;
+    box-shadow:10px 10px 30px 10px rgb(242 245 254);
+    display: flex;
+    font-family: "Hanken Grotesk", sans-serif;
+    height: 440px;
+    left: 50%;
     position: absolute;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow:10px 10px 30px 10px rgb(242 245 254);
+    width: 640px;
 
 }
 
@@ -24,10 +24,10 @@
     /* background-image: linear-gradient(to bottom right, rgb(78 56 245), rgb(84 57 246)); */
     background-image: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 20px;
-    width: 50%;
     height: 100%;
-    text-align: center;
     margin-right: 1%;
+    text-align: center;
+    width: 50%;
 }
 
 #results>h1{
@@ -40,8 +40,8 @@
 
 #results>p{
     color: rgb(202 196 255);
-    width: 70%;
     margin: auto;
+    width: 70%;
 
 }
 
@@ -50,29 +50,29 @@ p{
 }
 
 #summary{
-    width: 50%;
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 #summary>h1{
-    width: 80%;
-    color: hsl(224, 30%, 27%)
+    color: hsl(224, 30%, 27%);
+    width: 80%
 }
 
 
 #result-circle{
-    border-radius: 50%;
+    align-items: center;
     /* background-image: linear-gradient(to bottom right, rgb(74 35 204), rgb(70 51 237)); */
     background-image: linear-gradient(to bottom right, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    height: 150px;
-    width: 150px;
+    border-radius: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    height: 150px;
+    justify-content: center;
     margin: auto;
+    width: 150px;
 
 }
 
@@ -88,29 +88,29 @@ p{
 }
 
 .summarytypes{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 50px;
-    margin: 5px;
     border-radius: 8px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 5px;
+    width: 80%;
 }
 
 .summarytype{
-    width: 60%;
     font-weight: bold;
+    width: 60%;
 }
 
 button{
-    height: 40px;
-    width: 80%;
-    margin: auto;
-    border-radius: 20px;
-    border: none;
     background-color: rgb(48 59 89);
+    border: none;
+    border-radius: 20px;
     color: white;
     cursor: pointer;
+    height: 40px;
+    margin: auto;
+    width: 80%;
 }
 
 
