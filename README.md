@@ -1,4 +1,7 @@
 # THE-Jitu
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7f8fc971651342dcad54fd3363fea1cd?branch=htmlcss)](https://app.codacy.com/gh/JoshuaOndieki/THE-Jitu/dashboard?branch=htmlcss&utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 Tasks completed at THE Jitu Software Developer Training
 
 This branch (htmlcss) contains challenge completed during day 2 of THE Jitu Software Developer Trainee training.
